@@ -3,11 +3,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nav_bar.css">
     <title>index</title>
 </head>
 <body>
     <?php echo "Current Date and Time: " . date("Y-m-d H:i:s") ?>
-
+    <ul>
+        <li><a href="login.php">Log out</a></li>
+    </ul>
     <div id="main">
         <h3>Sign Up</h3>
         <form action="includes/signup.inc.php" method="POST">
